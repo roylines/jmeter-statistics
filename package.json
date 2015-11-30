@@ -1,6 +1,6 @@
 {
   "name": "jmeter-statistics",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "analyse jmeter jtl files",
   "bin": {
     "jmeter-statistics": "bin/jmeter-statistics"
