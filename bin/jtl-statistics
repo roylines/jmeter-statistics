@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+const jtl = require("../lib/jtl");
+
+return jtl(process.stdin, process.stdout, function() {
+  process.exit(1);
+});
+
