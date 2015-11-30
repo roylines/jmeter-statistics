@@ -6,7 +6,7 @@
     "jmeter-statistics": "bin/jmeter-statistics"
   },
   "scripts": {
-    "test": "lab"
+    "test": "lab -c"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,8 @@
     "split": "^1.0.0"
   },
   "devDependencies": {
-    "lab": "*"
+    "chai": "^3.4.1",
+    "lab": "*",
+    "memory-streams": "^0.1.0"
   }
 }
