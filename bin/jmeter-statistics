@@ -2,6 +2,6 @@
 const jtl = require("../lib/jtl");
 
 return jtl(process.stdin, process.stdout, function() {
-  process.exit(1);
+  process.exit(0);
 });
 
