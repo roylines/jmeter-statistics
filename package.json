@@ -1,9 +1,9 @@
 {
   "name": "jmeter-statistics",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "analyse jmeter jtl files",
   "bin": {
-    "ganglion": "bin/jtl-statistics"
+    "jtl-statistics": "bin/jtl-statistics"
   },
   "scripts": {
     "test": "lab"
