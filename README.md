@@ -1,5 +1,5 @@
 # jmeter-statistics
-A CLI written in node for analysing jmeter jtl files. You can pipe a jtl file into it, and it will output a .csv with aggregated data.
+A CLI written in node for analysing jmeter jtl files. You can pipe a csv formatted jtl file into it, and it will output a .csv with aggregated data.
 
 # Installation
 ```
