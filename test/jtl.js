@@ -12,7 +12,7 @@ lab.experiment("jtl", () => {
     jtl(reader, writer, () => {
       var lines = writer.toString().split("\n");
       lines.should.be.length(4);
-      lines[0].should.equal('label,requestCount,meanResponseTimeMillis,maxTime,minTime,errorPercentage,apdex,satisfied,tolerating,frustrated');
+      lines[0].should.equal('label,requestCount,meanResponseTimeMillis,maxTime,minTime,errorPercentage,apdex,satisfied,tolerating,frustrated,ninetiethPercentile');
       var line1 = lines[1].split(',');
 
       line1[0].should.equal('call1');
@@ -25,6 +25,7 @@ lab.experiment("jtl", () => {
       line1[7].should.equal('1');
       line1[8].should.equal('3');
       line1[9].should.equal('0');
+      line1[10].should.equal('1170');
       
       var line2 = lines[2].split(',');
       line2[0].should.equal('call2');
@@ -37,6 +38,7 @@ lab.experiment("jtl", () => {
       line2[7].should.equal('0');
       line2[8].should.equal('3');
       line2[9].should.equal('1');
+      line2[10].should.equal('2200');
       return done();
     });
   });
