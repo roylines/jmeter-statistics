@@ -33,4 +33,6 @@ label2,5,9566,11982,8746,35.57,10.29,0,1,9520,46,0,11982
 - **satisfied**: the number of requests defined as satisfied by the apdex target time (response time <= 500ms)
 - **tolerating**: the number of requests defined as tolerating by the apdex target time (response time <= 2s)
 - **frustrated**: the number of requests defined as frustrated by the apdex target time (response time > 2s)
-- **ninetiethPercentile**: the value below which 90% of the samples fall (Refere [here](http://jmeter.apache.org/usermanual/glossary.html))
+- **ninetiethPercentile**: the value below which 90% of the samples fall (See [explanation](http://apmblog.dynatrace.com/2012/11/14/why-averages-suck-and-percentiles-are-great/))
+- **p50Percentile**: The median request response time
+- **p99Percentile**: The p99 response time (ie: only 1% were slower than this figure)
